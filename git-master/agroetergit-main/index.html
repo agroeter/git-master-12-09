@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navigation">
+      <ul>
+        <li>Додати блог</li>
+        <li>Агрономісти</li>
+        <li>Статті</li>
+        <li>Агроблоги</li>
+      </ul>
+    </div>
+  </header>
+  <div class="conteiner">
+    <div class="blok">
+      <div class="person">
+        <div class="photo">
+          <img src="../agroetergit-main/images/20220502_140704.jpg" alt="Avatar">
+        </div>
+        <div class="inf">
+          <h1>Djon</h1>
+          <h2>Dow</h2>
+          <h3>04/04/1955</h3>
+          <h4>Agrnomist</h4>
+          <h5>I will be big</h5>
+        </div>
+      </div>
+      <div class="pages">
+        <button class="tablink" onclick="openPage('Stars', this, 'red')">Рейтинг</button>
+        <button class="tablink" onclick="openPage('Career', this, 'green')" id="defaultOpen">Кар'єра</button>
+        <button class="tablink" onclick="openPage('Articles', this, 'blue')">Статті</button>
+        <button class="tablink" onclick="openPage('Blog', this, 'orange')">Агроблог</button>
+      </div>
+            <div id="Stars" class="tabcontent">
+        <span class="heading">User Rating</span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p>4.1 average based on 254 reviews.</p>
+        <hr style="border:3px solid #f1f1f1">
+
+        <div class="row">
+          <div class="side">
+            <div>5 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-5"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>150</div>
+          </div>
+          <div class="side">
+            <div>4 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-4"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>63</div>
+          </div>
+          <div class="side">
+            <div>3 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-3"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>15</div>
+          </div>
+          <div class="side">
+            <div>2 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-2"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>6</div>
+          </div>
+          <div class="side">
+            <div>1 star</div>
+          </div>
+          <div class="middle">
+            <div class="bar-container">
+              <div class="bar-1"></div>
+            </div>
+          </div>
+          <div class="side right">
+            <div>20</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Career" class="tabcontent">
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h2>2017</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2016</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2>2015</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2012</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2>2011</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2007</h2>
+              <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Articles" class="tabcontent">
+        <h3>Статті</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+      </div>
+
+      <div id="Blog" class="tabcontent">
+        <h3>Блог</h3>
+        <p>Who we are and what we do.</p>
+      </div>
+
+      <script>
+        function openPage(pageName, elmnt, color) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+          }
+          document.getElementById(pageName).style.display = "block";
+          elmnt.style.backgroundColor = color;
+
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+      </script>
+    </div>
+  </div>
+</body>
+
+</html>
