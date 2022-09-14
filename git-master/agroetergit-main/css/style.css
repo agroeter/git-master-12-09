@@ -3,7 +3,7 @@ html {
     background-image: url(../images/back.jpg);
     background-size: auto;
     background-position: top;
-    background-repeat:;
+    background-repeat;
     text-align: center;
     font-size: medium;
 }
@@ -120,7 +120,7 @@ li {
 .middle {
     margin-top: 10px;
     float: left;
-    width: 70%;
+    width: 66%;
 }
 
 .right {
@@ -135,7 +135,7 @@ li {
 }
 
 .bar-5 {
-    width: 60%;
+    width: 50%;
     height: 18px;
     background-color: #7f5539;
 }
@@ -338,4 +338,11 @@ li {
 * {
     box-sizing: border-box;
 }
+.row article {
+    outline: 2px solid red;
+    width: 100%;
+}
 
+.previwe img {
+width: 600px;
+}
