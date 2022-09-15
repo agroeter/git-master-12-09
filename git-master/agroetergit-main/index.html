@@ -24,7 +24,7 @@
     <div class="blok">
       <div class="person">
         <div class="photo">
-          <img src="../agroetergit-main/images/20220502_140704.jpg" alt="Avatar">
+          <img src="../agroetergit-main/images/avatar.jpg" alt="Avatar">
         </div>
         <div class="inf">
           <h1>Djon</h1>
@@ -35,10 +35,10 @@
         </div>
       </div>
       <div class="pages">
-        <button class="tablink" onclick="openPage('Stars', this, 'red')">Рейтинг</button>
-        <button class="tablink" onclick="openPage('Career', this, 'green')" id="defaultOpen">Кар'єра</button>
-        <button class="tablink" onclick="openPage('Articles', this, 'blue')">Статті</button>
-        <button class="tablink" onclick="openPage('Blog', this, 'orange')">Агроблог</button>
+        <button class="tablink" onclick="openPage('Stars', this, '#006400')" id="defaultOpen">Рейтинг</button>
+        <button class="tablink" onclick="openPage('Career', this, '#006400')">Кар'єра</button>
+        <button class="tablink" onclick="openPage('Articles', this, '#006400')">Статті</button>
+        <button class="tablink" onclick="openPage('Blog', this, '#006400')">Агроблог</button>
       </div>
       <div id="Stars" class="tabcontent">
         <span class="heading">Рейтинг користувача</span>
@@ -50,7 +50,7 @@
         <p>Статистика показує активність користувача на сайті та оцінку його роботи іншими користувачами</p>
         <hr style="border:3px solid #f1f1f1">
 
-        <div class="row">
+        <div class="row-statistic">
 
           <div class="side">
             <div>Активність в полі</div>
@@ -164,51 +164,89 @@
 
       <div id="Articles" class="tabcontent">
         <!--filter form-->
-        <div class="row article">
-          <article class="row post">
-            <a href="article.html" class="post link">
-              <div class="article previwe">
-                <img src="../agroetergit-main/images/preblog.png" </div>
-                <h2> Назва статті
-                </h2>
-            </a>
-            <p>
-              Короткий зміст статті
-            </p>
-            <div class="info post">
-              <span>1234 переглядів</span>
-              <span>34 коментар</span>
-              <span>23/11/2022</span>рів
+
+        <article class="row-post">
+          <hr class="top-line-post">
+          <div class="tm-post">
+            <h3> Назва статті
+            </h3>
+            <div class="img-post">
+              <a href="article.html" class="post-link">
+
+                <div class="article-previwe">
+                  <img src="../agroetergit-main/images/preblog.png" alt="Post photo" </div>
+              </a>
             </div>
-          </article>
+            <div class="text-post">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, accusantium! Assumenda iusto amet in.
+                Ea
+                harum dolor tempora repellendus, ratione a molestias corrupti numquam error tempore nihil, dolorem
+                libero sapiente!
+              </p>
+            </div>
+          </div>
+          <div class="info-post">
+            <span>1234 переглядів</span>
+            <span>34 коментар</span>
+            <span>23/11/2022</span>
+          </div>
+          <hr class="top-line-post">
+        </article>
+        <article class="row-post">
+          <hr class="top-line-post">
+          <div class="tm-post">
+            <h3> Назва статті
+            </h3>
+            <div class="img-post">
+              <a href="article.html" class="post-link">
+
+                <div class="article-previwe">
+                  <img src="../agroetergit-main/images/preblog.png" alt="Post photo" </div>
+              </a>
+            </div>
+            <div class="text-post">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, accusantium! Assumenda iusto amet in.
+                Ea
+                harum dolor tempora repellendus, ratione a molestias corrupti numquam error tempore nihil, dolorem
+                libero sapiente!
+              </p>
+            </div>
+          </div>
+          <div class="info-post">
+            <span>1234 переглядів</span>
+            <span>34 коментар</span>
+            <span>23/11/2022</span>
+          </div>
+          <hr class="top-line-post">
+        </article>
+
+        <div id="Blog" class="tabcontent">
+          <h3>Блог</h3>
+          <p>Who we are and what we do.</p>
         </div>
-      </div>
 
-      <div id="Blog" class="tabcontent">
-        <h3>Блог</h3>
-        <p>Who we are and what we do.</p>
-      </div>
+        <script>
+          function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
 
-      <script>
-        function openPage(pageName, elmnt, color) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
           }
-          tablinks = document.getElementsByClassName("tablink");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].style.backgroundColor = "";
-          }
-          document.getElementById(pageName).style.display = "block";
-          elmnt.style.backgroundColor = color;
-
-        }
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
-      </script>
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+        </script>
+      </div>
     </div>
-  </div>
 </body>
 
 </html>
