@@ -28,6 +28,10 @@ li {
 
 }
 
+.navigation a {
+    text-decoration: none;
+}
+
 .conteiner {
     max-width: 1200px;
     width: 100%;
@@ -200,7 +204,7 @@ li {
 }
 
 .tablink:hover {
-    background-color: 		#32cd32b1;
+    background-color: #32cd32b1;
 }
 
 .tabcontent {
@@ -210,6 +214,7 @@ li {
     height: 100%;
     width: 100%;
 }
+
 .pages {
     width: 1200px;
 
@@ -353,10 +358,12 @@ hr.top-line-post {
     padding: 5px;
 }
 
+.tm-post a {
+    text-decoration: none;
+}
 
 .tm-post {
     width: auto;
-    outline: px solid red;
 }
 
 .img-post {
@@ -378,7 +385,6 @@ hr.top-line-post {
     max-height: 300px;
     vertical-align: middle;
     border-radius: 10%;
-    outline: 2px solid rebeccapurple;
 }
 
 .info-post span {
@@ -386,3 +392,94 @@ hr.top-line-post {
     padding: 5px 15px;
     color: #6c4831;
 }
+
+.pg-button-blok {
+    flex: content;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: black;
+    width: auto;
+    padding: 2px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.navbar a.active {
+    background-color: #6c4831;
+    color: white;
+}
+
+.navbar a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.menu {
+    line-height: 25px;
+}
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+  h1 {
+    text-align: center;  
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #4CAF50;
+  }
+  
+.invalid {
+    background-color: #ffdddd;
+  }
+  
+  .tab {
+    display: none;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #4CAF50;
+  }
+     .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #24b429;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+ .step.finish {
+    background-color: #4CAF50;
+  }
