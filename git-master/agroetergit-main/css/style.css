@@ -10,14 +10,16 @@ html {
 
 body {
     width: auto;
-
+max-width: 1200px;
+margin: auto;
 }
 
 ul {
     width: auto;
+    max-width: 1200px;
     background: #228b2298;
     padding: 20px;
-    margin: 15px;
+    margin: 15px 0px;
 }
 
 li {
