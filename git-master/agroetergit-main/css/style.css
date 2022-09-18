@@ -10,8 +10,8 @@ html {
 
 body {
     width: auto;
-max-width: 1200px;
-margin: auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 ul {
@@ -202,7 +202,7 @@ li {
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    width: 25%;
+    width: 20%;
 }
 
 .tablink:hover {
@@ -344,17 +344,14 @@ li {
     outline: px solid yellow;
 }
 
-.post-link {
-    text-decoration: none;
 
-}
 
 hr.top-line-post {
     border-top: 5px solid #7f5539;
 
 }
 
-.tm-post h3 {
+.row-post h3 {
     color: #6c4831;
     text-align: center;
     padding: 5px;
@@ -362,27 +359,25 @@ hr.top-line-post {
 
 .tm-post a {
     text-decoration: none;
+    text-align: center;
+
 }
 
 .tm-post {
     width: auto;
-}
-
-.img-post {
     display: flex;
-    text-align: left;
-    height: auto;
-    color: #9c6644;
 }
 
 .text-post {
     outline: px solid white;
+    margin: 2px;
+    width: 900px;
 }
 
 .article-previwe img {
     padding: 2px;
     width: auto;
-    max-width: 150px;
+    max-width: 200px;
     margin: 10px;
     max-height: 300px;
     vertical-align: middle;
@@ -421,6 +416,7 @@ hr.top-line-post {
 .menu {
     line-height: 25px;
 }
+
 #regForm {
     background-color: #ffffff;
     margin: 100px auto;
@@ -428,29 +424,29 @@ hr.top-line-post {
     padding: 40px;
     width: 70%;
     min-width: 300px;
-  }
-  
-  h1 {
-    text-align: center;  
-  }
-  
-  input {
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
     padding: 10px;
     width: 100%;
     font-size: 17px;
     font-family: Raleway;
     border: 1px solid #4CAF50;
-  }
-  
+}
+
 .invalid {
     background-color: #ffdddd;
-  }
-  
-  .tab {
+}
+
+.tab {
     display: none;
-  }
-  
-  button {
+}
+
+button {
     background-color: #4CAF50;
     color: #ffffff;
     border: none;
@@ -458,30 +454,41 @@ hr.top-line-post {
     font-size: 17px;
     font-family: Raleway;
     cursor: pointer;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     opacity: 0.8;
-  }
-  
-  #prevBtn {
+}
+
+#prevBtn {
     background-color: #4CAF50;
-  }
-     .step {
+}
+
+.step {
     height: 15px;
     width: 15px;
     margin: 0 2px;
     background-color: #24b429;
-    border: none;  
+    border: none;
     border-radius: 50%;
     display: inline-block;
     opacity: 0.5;
-  }
-  
-  .step.active {
+}
+
+.step.active {
     opacity: 1;
-  }
-  
- .step.finish {
+}
+
+.step.finish {
     background-color: #4CAF50;
-  }
+}
+#footer {
+
+}
+.ft-container {
+    position:relative;
+    border: 2px solid #000;
+    width:1200px;
+    height:50px;
+    margin-top: calc(100-5px);
+}
