@@ -478,4 +478,9 @@ button:hover {
 .step.finish {
     background-color: #4CAF50;
 }
-
+.containers {
+   padding: 25px;
+   margin-top: 5px;
+   width: auto;
+   background-color: #228b2298;
+}
