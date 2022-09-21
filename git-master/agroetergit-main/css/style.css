@@ -10,13 +10,11 @@ html {
 
 body {
     width: auto;
-    max-width: 1200px;
-    margin: auto;
+
 }
 
 ul {
     width: auto;
-    max-width: 1200px;
     background: #228b2298;
     padding: 20px;
     margin: 15px 0px;
@@ -32,6 +30,18 @@ li {
 
 .navigation a {
     text-decoration: none;
+}
+.conteiner {
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    outline: 0px solid rebeccapurple;
+    padding: 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -112,8 +122,7 @@ li {
 .row-statistic {
     display: block;
     width: auto;
-    height: 100%;
-}
+  }
 
 .side {
     float: left;
@@ -200,7 +209,7 @@ li {
 
 .tabcontent {
     color: rgb(10, 0, 0);
-    display: block;
+    display: none;
     padding: 11px 20px;
     height: 100%;
     width: 100%;
@@ -208,8 +217,6 @@ li {
 
 .pages {
     width: 1200px;
-    height: auto;
-
 }
 
 .timeline {
@@ -303,7 +310,7 @@ li {
     .container {
         width: 100%;
         padding-left: 70px;
-        padding-right: 125px;
+        padding-right: 25px;
     }
 
     .container::before {
@@ -453,7 +460,6 @@ button:hover {
 #prevBtn {
     background-color: #4CAF50;
 }
-
 .step {
     height: 15px;
     width: 15px;
@@ -473,10 +479,3 @@ button:hover {
     background-color: #4CAF50;
 }
 
-.ft-blok {
-    position: relative;
-    border: 2px solid #000;
-    width:1200px;
-    height:50px;
-    margin: 10px 0;
-}
