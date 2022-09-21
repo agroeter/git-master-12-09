@@ -110,7 +110,12 @@ li {
     font-size: 25px;
     margin-right: 25px;
 }
-
+.ft-container {
+    width: auto;
+    background: #228b2298;
+    margin-top: 15px;
+    padding: 20px;
+ }
 .fa {
     font-size: 25px;
 }
@@ -302,7 +307,7 @@ li {
     border-radius: 6px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 804px) {
     .timeline::after {
         left: 31px;
     }
@@ -347,7 +352,6 @@ hr.top-line-post {
     border-top: 5px solid #7f5539;
 
 }
-
 .row-post h3 {
     color: #6c4831;
     text-align: center;
@@ -478,9 +482,24 @@ button:hover {
 .step.finish {
     background-color: #4CAF50;
 }
-.containers {
-   padding: 25px;
-   margin-top: 5px;
-   width: auto;
-   background-color: #228b2298;
+.row-post a {
+    text-decoration: none;
+}
+.tabcontent-container {
+    outline: 2px solid yellow;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.blok-loader {
+    outline: 2px solid red;
+    width: 260px;
+    height: 320px;
+    border-radius: 2px;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+    margin: 10px 30px;
 }
