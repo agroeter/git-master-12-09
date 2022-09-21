@@ -34,18 +34,6 @@ li {
     text-decoration: none;
 }
 
-.conteiner {
-    max-width: 1200px;
-    width: 100%;
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    outline: 0px solid rebeccapurple;
-    padding: 0px 10px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .blok {
     display: flex;
@@ -124,6 +112,7 @@ li {
 .row-statistic {
     display: block;
     width: auto;
+    height: 100%;
 }
 
 .side {
@@ -211,7 +200,7 @@ li {
 
 .tabcontent {
     color: rgb(10, 0, 0);
-    display: none;
+    display: block;
     padding: 11px 20px;
     height: 100%;
     width: 100%;
@@ -219,11 +208,12 @@ li {
 
 .pages {
     width: 1200px;
+    height: auto;
 
 }
 
 .timeline {
-    position: relative;
+     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -264,7 +254,7 @@ li {
     left: 0;
 }
 
-.right {
+.rights {
     left: 50%;
 }
 
@@ -281,7 +271,7 @@ li {
     border-color: transparent transparent transparent white;
 }
 
-.right::before {
+.rights::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -294,7 +284,7 @@ li {
     border-color: transparent white transparent transparent;
 }
 
-.right::after {
+.rights::after {
     left: -16px;
 }
 
@@ -313,7 +303,7 @@ li {
     .container {
         width: 100%;
         padding-left: 70px;
-        padding-right: 25px;
+        padding-right: 125px;
     }
 
     .container::before {
@@ -324,12 +314,12 @@ li {
     }
 
     .left::after,
-    .right::after {
+    .rights::after {
         left: 15px;
     }
 
-    .right {
-        left: 0%;
+    .rights {
+        left:0%;
     }
 }
 
@@ -482,13 +472,11 @@ button:hover {
 .step.finish {
     background-color: #4CAF50;
 }
-#footer {
 
-}
-.ft-container {
-    position:relative;
+.ft-blok {
+    position: relative;
     border: 2px solid #000;
     width:1200px;
     height:50px;
-    margin-top: calc(100-5px);
+    margin: 10px 0;
 }
