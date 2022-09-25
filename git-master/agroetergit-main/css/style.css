@@ -340,10 +340,10 @@ li {
 }
 
 .row-post {
-    margin: 1px;
+    margin: auto;
     padding: 1px;
-    text-align: right;
-    outline: px solid yellow;
+    text-align: left;
+    max-width: 1200px;
 }
 
 

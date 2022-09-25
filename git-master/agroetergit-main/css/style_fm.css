@@ -1,0 +1,42 @@
+html {
+    width: auto;
+    background-image: url(../images/back.jpg);
+    background-size: auto;
+    background-position: top;
+    background-repeat: repeat;
+    text-align: center;
+    font-size: medium;
+}
+
+body {
+    width: auto;
+}
+
+ul {
+    width: auto;
+    background: #228b2298;
+    padding: 20px;
+    margin: 15px 0px;
+}
+
+li {
+    display: inline;
+    font-size: 25px;
+    margin-inline-start: 5%;
+    color: aqua;
+}
+.navigation a {
+    text-decoration: none;
+}
+.footer {
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.ft-container {
+    width: auto;
+    background: #228b2298;
+    margin-top: 15px;
+    padding: 20px;
+ }
