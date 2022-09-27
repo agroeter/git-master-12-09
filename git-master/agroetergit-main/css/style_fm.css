@@ -36,46 +36,52 @@ li {
 
 .fm-pages {
   max-width: 1200px;
- height: auto;
+  height: auto;
   overflow: hidden;
   font: inherit;
   font-size: 100%;
 }
+
 .info-blog {
-background-color: #6c48315a;
-margin: 10px auto;
-font-size: 20px;
-max-width: 1200px;
-border-radius: 3px;
+  background-color: #6c48315a;
+  margin: 10px auto;
+  font-size: 20px;
+  max-width: 1200px;
+  border-radius: 3px;
 }
+
 .info-blog span {
   margin: 10px 30px;
   padding: 5px 15px;
   color: #fcfaf9;
 }
+
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
   width: 600px;
   display: inline-block;
 }
+
 .numbertext img {
   width: 300px;
-  height: ;
+
 }
+
 .relise {
   width: 400px;
   display: inline-block;
-margin: 5px;
-marg itop 5px;;
-overflow: hidden;
-outline: 2px solid green;
+  margin: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+  outline: 2px solid green;
 }
+
 .description {
   width: 400px;
   display: inline-block;
-margin: 5px;
-height: 300px;
+  margin: 5px;
+  height: 300px;
 }
 
 /* Hide the images by default */
@@ -159,24 +165,29 @@ height: 300px;
 .demo:hover {
   opacity: 1;
 }
+
 .blog-coments {
-width: 1200px;
-margin-left: 2px;
-overflow: hidden;
+  width: 1200px;
+  margin-left: 2px;
+  overflow: hidden;
 }
+
 .info-user {
   width: 15%;
   display: inline-block;
 }
+
 .blog-coments img {
- width: 150px;
- border-radius: 3px;
- margin: 5px auto 5px 5px;
+  width: 150px;
+  border-radius: 3px;
+  margin: 5px auto 5px 5px;
 }
+
 .blog-coments-text {
   width: 80%;
   display: inline-block;
- }
+}
+
 .footer {
   position: absolute;
   left: 0;
