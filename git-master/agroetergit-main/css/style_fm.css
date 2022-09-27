@@ -1,145 +1,192 @@
 html {
-    width: auto;
-    background-image: url(../images/back.jpg);
-    background-size: auto;
-    background-position: top;
-    background-repeat: repeat;
-    text-align: center;
-    font-size: medium;
+  width: auto;
+  background-image: url(../images/back.jpg);
+  background-size: auto;
+  background-position: top;
+  background-repeat: repeat;
+  text-align: center;
+  font-size: medium;
 }
 
 body {
-    width: auto;
+  width: auto;
 }
 
 ul {
-    width: auto;
-    background: #228b2298;
-    padding: 20px;
-    margin: 15px 0px;
+  width: auto;
+  background: #228b2298;
+  padding: 20px;
+  margin: 15px 0px;
 }
 
 li {
-    display: inline;
-    font-size: 25px;
-    margin-inline-start: 5%;
-    color: aqua;
+  display: inline;
+  font-size: 25px;
+  margin-inline-start: 5%;
+  color: aqua;
 }
+
 .navigation a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 * {
-    box-sizing: border-box;
-  }
-  .fm-pages {
-    max-width: 1200px;
-    overflow: hidden;
-    font: inherit;
-    font-size: 100%;
-
-
-  }
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
-    width: 300px;
-    display: inline-block;
-   }
-    .relise {
-width: 300px;
-display: inline-block;
-height: 500px;
-  }
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: 10px;
-    padding: 25px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bolder;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0; 
-
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 10px;
-    border-radius: 3px 0 0 3px;
-  }
-  .prev {
-    left: 10px;
-  }
-
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-
-.footer {
-    position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+  box-sizing: border-box;
 }
-.ft-container {
-    width: auto;
-    background: #228b2298;
-    margin-top: 15px;
-    padding: 20px;
+
+.fm-pages {
+  max-width: 1200px;
+ height: auto;
+  overflow: hidden;
+  font: inherit;
+  font-size: 100%;
+}
+.info-blog {
+background-color: #6c48315a;
+margin: 10px auto;
+font-size: 20px;
+max-width: 1200px;
+border-radius: 3px;
+}
+.info-blog span {
+  margin: 10px 30px;
+  padding: 5px 15px;
+  color: #fcfaf9;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  width: 600px;
+  display: inline-block;
+}
+.numbertext img {
+  width: 300px;
+  height: ;
+}
+.relise {
+  width: 400px;
+  display: inline-block;
+margin: 5px;
+marg itop 5px;;
+overflow: hidden;
+outline: 2px solid green;
+}
+.description {
+  width: 400px;
+  display: inline-block;
+margin: 5px;
+height: 300px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  padding: 25px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 10px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.blog-coments {
+width: 1200px;
+margin-left: 2px;
+overflow: hidden;
+}
+.info-user {
+  width: 15%;
+  display: inline-block;
+}
+.blog-coments img {
+ width: 150px;
+ border-radius: 3px;
+ margin: 5px auto 5px 5px;
+}
+.blog-coments-text {
+  width: 80%;
+  display: inline-block;
  }
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.ft-container {
+  width: auto;
+  background: #228b2298;
+  margin-top: 15px;
+  padding: 20px;
+}

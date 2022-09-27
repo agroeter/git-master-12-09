@@ -219,7 +219,9 @@ li {
     height: 100%;
     width: 100%;
 }
-
+.statisfaction {
+    padding-bottom: 250px;
+}
 .pages {
     width: 1200px;
 }
