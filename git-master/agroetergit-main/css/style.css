@@ -194,6 +194,9 @@ li {
     .right {
         display: none;
     }
+    .workstudy {
+        margin-top: 200px;
+    }
 }
 
 .tablink {
