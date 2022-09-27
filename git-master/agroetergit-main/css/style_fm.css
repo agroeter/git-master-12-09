@@ -37,9 +37,9 @@ li {
 .fm-pages {
   max-width: 1200px;
   height: auto;
-  overflow: hidden;
   font: inherit;
   font-size: 100%;
+  margin: auto;
 }
 
 .info-blog {
@@ -59,29 +59,30 @@ li {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  width: 600px;
-  display: inline-block;
-}
-
-.numbertext img {
-  width: 300px;
-
-}
-
-.relise {
-  width: 400px;
+  width: 800px;
   display: inline-block;
   margin: 5px;
-  margin-top: 5px;
-  overflow: hidden;
-  outline: 2px solid green;
+
+ }
+
+.relise {
+  position: relative;
+  width: 300px;
+  display: inline-block;
+  margin: 5px; 
+  height: 420px;
+
+
+
 }
 
 .description {
-  width: 400px;
+  position: relative;
+  width: 300px;
   display: inline-block;
   margin: 5px;
   height: 300px;
+
 }
 
 /* Hide the images by default */
@@ -134,8 +135,12 @@ li {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  display: contents;
 }
-
+.mySlides img {
+  width: 600px;
+  height: 500px;
+}
 /* Container for image text */
 .caption-container {
   text-align: center;
@@ -168,8 +173,9 @@ li {
 
 .blog-coments {
   width: 1200px;
-  margin-left: 2px;
+  margin: auto;
   overflow: hidden;
+  outline: 2px solid green;
 }
 
 .info-user {
