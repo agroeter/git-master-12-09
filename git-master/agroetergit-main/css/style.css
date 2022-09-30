@@ -12,21 +12,9 @@ body {
     width: auto;
 
 }
-
 .navigation a {
-
-  text-decoration: none;
-
-}
-
-.navigation a:hover {
-  border-bottom: 3px solid rgb(250, 245, 245);
-}
-
-.navigation a.active {
-  border-bottom: 3px solid rgb(250, 245, 245);
-}
-
+    text-decoration: none;
+    }
 ul {
     width: auto;
     background: #228b2298;
@@ -42,10 +30,7 @@ li {
 
 }
 
-.navigation a {
-    text-decoration: none;
-}
-.conteiner {
+.conteiners {
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box;

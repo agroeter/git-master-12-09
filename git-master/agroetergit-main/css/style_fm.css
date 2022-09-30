@@ -11,7 +11,9 @@ html {
 body {
   width: auto;
 }
-
+.navigation a {
+  text-decoration: none;
+  }
 ul {
   width: auto;
   background: #228b2298;
@@ -46,7 +48,7 @@ li {
   background-color: #6c48315a;
   margin: 10px auto;
   font-size: 20px;
-  max-width: 1200px;
+text-align: left;
   border-radius: 3px;
 }
 
@@ -71,9 +73,6 @@ li {
   display: inline-block;
   margin: 5px; 
   height: 420px;
-
-
-
 }
 
 .description {

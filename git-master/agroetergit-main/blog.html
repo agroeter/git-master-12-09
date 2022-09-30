@@ -16,9 +16,15 @@
         <a href="index.html">
           <li>Профіль</li>
         </a>
-        <a href="all_user.html"><li>Агрономісти</li></a>
-        <a href="all_user_blog.html"> <li>Блоги</li></a>
-        <a href="all_user_project.html"><li>Проекти</li></a>
+        <a href="all_user.html">
+          <li>Агрономісти</li>
+        </a>
+        <a href="all_user_blog.html">
+          <li>Блоги</li>
+        </a>
+        <a href="all_user_project.html">
+          <li>Проекти</li>
+        </a>
         <a href="all_user_articles.html">
           <li>Статті</li>
         </a>
@@ -28,144 +34,151 @@
       </ul>
     </div>
   </header>
-  <main id="main">
-    <div class="info-blog">
-      <span>1234 переглядів</span>
-      <span>34 коментар</span>
-      <span>23/11/2022</span>
-    </div>
-    <div class="fm-pages">
-      <div class="container">
+  <div class="conteiners">
+    <main id="main">
 
-        <!-- Full-width images with number text -->
-        <div class="mySlides">
-          <div class="numbertext">1 / 6</div>
-          <img src="../agroetergit-main/images/images1.jpg" style="width:100%">
-        </div>
+      <div class="fm-pages">
+        <div class="container">
 
-        <div class="mySlides">
-          <div class="numbertext">2 / 6</div>
-          <img src="../agroetergit-main/images/images2.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">3 / 6</div>
-          <img src="../agroetergit-main/images/images3.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">4 / 6</div>
-          <img src="../agroetergit-main/images/images4.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">5 / 6</div>
-          <img src="../agroetergit-main/images/images5.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">6 / 6</div>
-          <img src="../agroetergit-main/images/images6.jpg" style="width:100%">
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Image text -->
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-
-        <!-- Thumbnail images -->
-        <div class="row">
-          <div class="column">
-            <img class="demo cursor" src="../agroetergit-main/images/images1.jpg" style="width:100%"
-              onclick="currentSlide(1)" alt="The Woods">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="../agroetergit-main/images/images2.jpg" style="width:100%"
-              onclick="currentSlide(2)" alt="Cinque Terre">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="../agroetergit-main/images/images3.jpg" style="width:100%"
-              onclick="currentSlide(3)" alt="Mountains and fjords">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="../agroetergit-main/images/images4.jpg" style="width:100%"
-              onclick="currentSlide(4)" alt="Northern Lights">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="../agroetergit-main/images/images5.jpg" style="width:100%"
-              onclick="currentSlide(5)" alt="Nature and sunrise">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="../agroetergit-main/images/images6.jpg" style="width:100%"
-              onclick="currentSlide(6)" alt="Snowy Mountains">
+          <!-- Full-width images with number text -->
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="../agroetergit-main/images/images1.jpg" style="width:100%">
           </div>
 
-          <script> var slideIndex = 1;
-            showSlides(slideIndex);
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="../agroetergit-main/images/images2.jpg" style="width:100%">
+          </div>
 
-            // Next/previous controls
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="../agroetergit-main/images/images3.jpg" style="width:100%">
+          </div>
 
-            // Thumbnail image controls
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="../agroetergit-main/images/images4.jpg" style="width:100%">
+          </div>
 
-            function showSlides(n) {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("demo");
-              var captionText = document.getElementById("caption");
-              if (n > slides.length) { slideIndex = 1 }
-              if (n < 1) { slideIndex = slides.length }
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-              }
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex - 1].style.display = "block";
-              dots[slideIndex - 1].className += " active";
-              captionText.innerHTML = dots[slideIndex - 1].alt;
-            }</script>
-        </div>
-      </div>
-      <div class="relise">
-        <h1>Блог 1</h1> <!--назва та опис блогу-->
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vero ipsam temporibus? Distinctio adipisci deleniti corporis veniam quas, sunt doloremque quis, cupiditate eum ea magnam officiis dolores alias autem sequi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam debitis, delectus sapiente obcaecati illum
-          quod corrupti libero aut repellat ex voluptate quae, asperiores ab! Adipisci id mollitia soluta tempore
-          quidem.</p>
-     
-        <div class="description">
-        <h1>Опис фото</h1>
-        <p>sum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis dolore atque perferendis tenetur hic quae libero aut dicta harum aperiam quidem id amet repudiandae dolores, voluptas quas recusanlat ex voluptate quae, asperiores ab! Adipisci id mollitia soluta tempore
-          quidem.</p>
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="../agroetergit-main/images/images5.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="../agroetergit-main/images/images6.jpg" style="width:100%">
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <!-- Image text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <!-- Thumbnail images -->
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="../agroetergit-main/images/images1.jpg" style="width:100%"
+                onclick="currentSlide(1)" alt="The Woods">
             </div>
-      </div>
-      
-    </div>
+            <div class="column">
+              <img class="demo cursor" src="../agroetergit-main/images/images2.jpg" style="width:100%"
+                onclick="currentSlide(2)" alt="Cinque Terre">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../agroetergit-main/images/images3.jpg" style="width:100%"
+                onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../agroetergit-main/images/images4.jpg" style="width:100%"
+                onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../agroetergit-main/images/images5.jpg" style="width:100%"
+                onclick="currentSlide(5)" alt="Nature and sunrise">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../agroetergit-main/images/images6.jpg" style="width:100%"
+                onclick="currentSlide(6)" alt="Snowy Mountains">
+            </div>
 
-    </div>
-<div class="blog-coments">
-  <div class="info-user">
-  <h1>Djon Dow</h1>
-  <img src="../agroetergit-main/images/avatar.jpg" alt="avatar">
-</div>
-<div class="blog-coments-text">
-<div class="info-blog">
-      <span>відповіді</span>
-      <span>34 вподобайки</span>
-      <span>23/11/2022</span>
-    </div>
-</div>
-</div>
-  </main>
+            <script> var slideIndex = 1;
+              showSlides(slideIndex);
+
+              // Next/previous controls
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
+
+              // Thumbnail image controls
+              function currentSlide(n) {
+                showSlides(slideIndex = n);
+              }
+
+              function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+              }</script>
+          </div>
+        </div>
+        <div class="relise">
+          <h1>Блог 1</h1>
+          <div class="info-blog">
+            <p>Дата створення 23/11/2022</p>
+            <p>Переглядів 3 655</p>
+            <p>Коментарів 5 900</p>
+
+          </div>
+          <!--назва та опис блогу-->
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+            quod corrupti libero aut repellat ex voluptate quae, asperiores ab! Adipisci id mollitia soluta tempore
+            quidem.</p>
+
+          <div class="description">
+            <h1>Опис фото</h1>
+            <p>sum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis dolore atque perferendis tenetur
+              hic quae libero aut dicta harum aperiam quidem id amet repudiandae dolores, voluptas quas recusanlat ex
+              voluptate quae, asperiores ab! Adipisci id mollitia soluta tempore
+              quidem.</p>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="blog-coments">
+        <div class="info-user">
+          <h1>Djon Dow</h1>
+          <img src="../agroetergit-main/images/avatar.jpg" alt="avatar">
+        </div>
+        <div class="blog-coments-text">
+          <div class="info-blog">
+            <span>відповіді</span>
+            <span>34 вподобайки</span>
+            <span>23/11/2022</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
   <footer>
     <div class="ft-container">
       <div class="col-1-3"></div>
