@@ -13,6 +13,20 @@ body {
 
 }
 
+.navigation a {
+
+  text-decoration: none;
+
+}
+
+.navigation a:hover {
+  border-bottom: 3px solid rgb(250, 245, 245);
+}
+
+.navigation a.active {
+  border-bottom: 3px solid rgb(250, 245, 245);
+}
+
 ul {
     width: auto;
     background: #228b2298;
