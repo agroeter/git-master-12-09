@@ -523,16 +523,17 @@ button:hover {
     padding: 5px 5px;
     color: #8a5d40;
 }
-.bl-footer {
+.footer {
     position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-}
-.bl-laed {
- height: 55px;
-overflow: hidden;
-
-}
-    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .block-footer {
+    width: auto;
+    background: #228b2298;
+    margin-top: 15px;
+    padding: 20px;
+  }
 
